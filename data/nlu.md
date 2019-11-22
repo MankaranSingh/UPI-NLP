@@ -33,6 +33,13 @@
 - what is the transaction history
 - transaction history
 - transactions list
+- show me [last](whaich_transaction) transaction 
+- whats was my [last](whaich_transaction) transaction
+- how much was my [last](whaich_transaction) transaction
+- transaction details
+- [last](whaich_transaction) transaction details
+- [last](whaich_transaction) transaction
+- last
 
 ## synonym:deposit
 - transaction
@@ -77,60 +84,58 @@
 - how much money i got
 
 ## intent:transfer.money.send
-- i need to send [2](amount) bucks to [mankaran](amount_to) 
-- send money to [mankaran](amount_to)
-- transfer [100](amount) rupees to [mankaran singh](account_to)
-- pay [100](amount) rupees to [utkarsh mishra](account_to)
-- send [100](amount) rupees to [mankaran](account_to)
-- i need to send [2](amount) bucks to [utkarsh](account_to)
+- i need to send [2](amount) bucks to mankaran
+- send money to mankaran
+- transfer [100](amount) rupees to mankaran singh
+- transfer [100](amount) rupees
+- pay [100](amount) rupees to utkarsh mishra
+- send [100](amount) rupees
+- i need to send [2](amount) bucks to utkarsh
 - can you send some money
 - transfer
 - send
 - pay
 - i want to transfer money
 - tansfer money between accounts
-- transfer to [shivam](account_to)
-- pay for [utkarsh mishra](account_to)
+- transfer to shivam
+- pay for utkarsh mishra
 - can you help me send some money
-- card payment to [mankaran](account_to)
-- [5000](amount) should be transferred to [mankaran](account_to)
+- card payment to mankaran
+- card payment
+- [5000](amount) should be transferred to mankaran
+- [5000](amount) should be transferred 
 - transfer money
 - send money
 - can you make a money transfer
 - can you send money
-- i need to pay [5000](amount) rupees to [shivam goyal](account_to)
-- transfer [100](amount) to [shivam goyal](account_to)
+- i need to pay [5000](amount) rupees to shivam goyal
+- transfer [100](amount) to shivam goyal
 - transfer money from one card to another
 
-## lookup:account_to
-names.txt
-
 ## intent:transfer.money.request
-- i need to recieve [2](amount) bucks from [mankaran](amount_from) 
-- recieve money from [mankaran](amount_from)
-- request [100](amount) rupees from [mankaran singh](amount_from)
-- get [100](amount) rupees from [utkarsh mishra](amount_from)
-- i need to get [2](amount) bucks from [utkarsh](amount_from)
+- i need to recieve [2](amount) bucks 
+- recieve money from mankaran
+- request [100](amount) rupees from mankaran singh
+- request [100](amount) rupees
+- get [100](amount) rupees from utkarsh mishra
+- i need to get [2](amount) bucks from utkarsh
 - can you request some money
 - request
 - recieve
 - i want to request money
 - request money between accounts
-- request from [shivam](amount_from)
-- recieve from [utkarsh mishra](amount_from)
+- request from shivam
+- recieve from utkarsh mishra
 - can you help me request some money
-- card payment from [mankaran](amount_from)
-- [5000](amount) should be requested from [mankaran](amount_from)
+- card payment from mankaran
+- [5000](amount) should be requested from mankaran
 - request money
 - recieve money
 - can you make a money requests
 - can you request money
-- i need to request [5000](amount) rupees from [shivam goyal](amount_from)
-- request [100](amount) from [shivam goyal](amount_from)
+- i need to request [5000](amount) rupees
+- request [100](amount) 
 - recieve money from one card to another
-
-## lookup:account_from
-    names.txt
 
 ## synonym:transfer
 - send
