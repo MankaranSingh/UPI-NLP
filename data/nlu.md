@@ -84,55 +84,78 @@
 - how much money i got
 
 ## intent:send_money
-- i need to send [2.2566](amount) bucks 
-- send money to mankaran
-- transfer [100](amount) rupees 
-- transfer [100.2129](amount) rupees
-- pay [100](amount) rupees 
-- send [100.5829](amount) rupees
-- i need to send [2](amount) bucks 
-- can you send some money
-- transfer
-- send
-- pay
-- i want to transfer money
+- i need to send [2.2566](amount) bucks to [aadil](name)
+- send money to [mankaran](name)
+- transfer [100](amount) rupees to [shivam](name)
+- transfer [100.2129](amount) rupees to [utkarsh](name)
+- pay [100](amount) rupees to [mankaran](name)
+- send [100.5829](amount) rupees to [shivam goyal](name)
+- i need to send [2](amount) bucks to [mankaran singh](name)
+- can you send some money to [mankaran singh](name)
+- transfer to [utkarash mishra](name)
+- send to [shivam goyal](name)
+- pay to [mankaran singh](name)
+- i want to transfer money to [utkarsh mishra](name)
 - tansfer money between accounts
-- can you help me send some money
-- card payment
-- transfer money
-- send money
-- can you make a money transfer
-- can you send money
-- i need to pay [5000](amount) rupees 
-- transfer [100](amount) 
+- can you help me send some money to [mankaran singh](name)
+- card payment 
+- transfer money to [utkarsh mishra](name)
+- send money to [shivam goyal](name)
+- can you make a money transfer to [mankaran](name)
+- can you send money to [mankaran singh](name)
+- i need to pay [5000](amount) rupees to [shivam goyal](name)
+- transfer [100](amount) to [aadil](name)
 - transfer money from one card to another
 
-## regex:amount
-- (?=.)(([0-9]+)(\.([0-9]+))?)
+## lookup:name
+names_cleaned.txt
 
-## intent:request_money
-- i need to recieve [2](amount) bucks 
+## regex:amount
+- (?=.)(([0-9]+)( ?\. ?([0-9]+))?)
+
+## intent:recieve_money
+- i need to recieve some bucks 
+- i need to recieve some rupees money
+- can i recieve some money
+- qr code to recieve some money 
+- my qr code
+- my bhim qr image
 - recieve money 
-- request [100.589](amount) rupees 
-- get [100](amount) rupees
-- i need to get [2](amount) bucks
-- can you request some money
-- request
 - recieve
-- i want to request money
-- request money between accounts
-- can you help me request some money
-- [5000.85939239](amount) should be requested 
-- request money
 - recieve money
-- can you make a money requests
-- can you request money
-- i need to request [5000](amount) rupees
-- request [100.5554](amount) 
 - recieve money from one card to another
 
+## intent:scan
+- scan qr code
+- scan
+- qr code scanner
+- qr code
+- i need to scan a qr code
+- scan it 
+
+## intent:request_money
+- request [100 . 589](amount) rupees from [mankaran singh](name)
+- request [100 .589](amount)  from [utkarsh singh](name)
+- request [100. 589](amount) bucks from [shivam singh](name)
+- request from [utkarsh mishra](name)
+- i want to request money from [shivam goyal](name)
+- request money between accounts 
+- can you help me request some money from [mankaran](name)
+- [5000.85939239](amount) should be requested from [shivam goyal](name)
+- request money from [utkarsh singh](name)
+- can you make a money requests from [mankaran singh](name)
+- can you request money from [lowinder sethi](name)
+- i need to request [5000](amount) rupees from [mankaran singh](name)
+- request [100.5554](amount) from [shivam](name)
+- get [100](amount) rupees from [utkarsh chauhan](name)
+- i need to get [2](amount) bucks from [mankaran singh](name)
+- can you request some money from [aadil](name)
+
+## lookup:name
+names_cleaned.txt
+
 ## regex:amount
-- (?=.)(([0-9]+)(\.([0-9]+))?)
+- (?=.)(([0-9]+)( ?\. ?([0-9]+))?)
 
 ## synonym:transfer
 - send

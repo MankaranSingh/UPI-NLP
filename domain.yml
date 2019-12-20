@@ -6,7 +6,9 @@ intents:
   - check_balance
   - send_money
   - request_money
+  - recieve_money
+  - scan
 
 templates:
   utter_default:
-    - "Sorry, I didn't get what you said."
+    - text : "Sorry, I didn't get what you said."
