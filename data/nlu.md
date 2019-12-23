@@ -113,17 +113,17 @@ names_cleaned.txt
 ## regex:amount
 - (?=.)(([0-9]+)( ?\. ?([0-9]+))?)
 
-## intent:recieve_money
-- i need to recieve some bucks 
-- i need to recieve some rupees money
-- can i recieve some money
-- qr code to recieve some money 
+## intent:receive_money
+- i need to receive some bucks 
+- i need to receive some rupees money
+- can i receive some money
+- qr code to receive some money 
 - my qr code
 - my bhim qr image
-- recieve money 
-- recieve
-- recieve money
-- recieve money from one card to another
+- receive money 
+- receive
+- receive money
+- receive money from one card to another
 
 ## intent:scan
 - scan qr code
