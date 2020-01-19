@@ -1,0 +1,14 @@
+intents:
+  - greet
+  - goodbye
+  - check_transfer_history
+  - check_rewards
+  - check_balance
+  - send_money
+  - request_money
+  - recieve_money
+  - scan
+
+templates:
+  utter_default:
+    - text : "Sorry, I didn't get what you said."
